@@ -1,5 +1,9 @@
 function changeBackgroundColor() {
   let newColor = colors[Math.floor(Math.random() * colorsIndex)];
+
+  while (body.style.backgroundColor == newColor) {
+    newColor = colors[Math.floor(Math.random() * colorsIndex)];
+  }
   body.style.backgroundColor = newColor;
   color.innerHTML = newColor;
   color.style.color = newColor;

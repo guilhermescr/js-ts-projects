@@ -43,13 +43,15 @@ body {
 }
 
 .color-settings #colorBtn {
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  background-color: antiquewhite;
-  padding: 5px 10px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: rgb(8, 255, 132);
+  font-size: 25px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
 .color-settings #colorBtn:hover {
-  border: 2px solid black;
-  background-color: rgb(233, 233, 137);
+  background-color: rgb(1, 175, 88);
+  color: #fff;
 }
