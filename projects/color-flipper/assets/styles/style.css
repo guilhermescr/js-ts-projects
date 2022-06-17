@@ -55,3 +55,8 @@ body {
   background-color: rgb(1, 175, 88);
   color: #fff;
 }
+
+.color-settings #colorBtn:active {
+  background-color: aquamarine;
+  color: #000;
+}
